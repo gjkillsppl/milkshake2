@@ -13,6 +13,8 @@
  */
 /* #Primary
 ================================================== */
+
+
 body {
   font-family: "Akkurat", sans-serif;
   font-weight: 300;
@@ -443,7 +445,7 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: #151515;
+  background: rgba(21, 21, 21, 1);
   width: 100%;
   z-index: 2002;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -565,7 +567,7 @@ a:hover {
 }
 
 .nav:after {
-  background: #151515;
+  background: rgba(21, 21, 21, 1);
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
@@ -619,7 +621,7 @@ a:hover {
 .nav__list-item a {
   position: relative;
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   overflow: hidden;
   cursor: pointer;
   padding-left: 5px;
@@ -826,11 +828,11 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 
 .nav__list .sub-links li a:hover {
-  color: white;
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav__list .sub-links li.active-nav a {
-  color: white;
+  color: rgba(255, 255, 255, 1);
 }
 
 /* #Hero Portfolio and Pages Section
@@ -3086,7 +3088,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 
 .social-wrap.on-footer ul a {
-  background-color: #202020;
+  background-color: rgba(32, 32, 32, 32.8);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -3409,6 +3411,5 @@ figure.vimeo a img, figure.youtube a img {
     line-height: 20px;
   }
 }
-/*# sourceMappingURL=style.scss.map */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
