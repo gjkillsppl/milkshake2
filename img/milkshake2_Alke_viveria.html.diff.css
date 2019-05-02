@@ -1,0 +1,23 @@
+/* Page: http://localhost:8888/milkshake2/Alke/viveria.html */
+/* Exported via StyleURL (https://www.styleurl.app) */
+/* style.css */
+
+body {
+  font-family: Sweet Sans Pro;
+  font-size: 14px;
+}
+
+.background-dark-2 {
+  background-color: #654232;
+}
+
+.section-title-wrap h1 {
+  font-style: italic;
+}
+
+/* inline_style_edits.inline.css */
+
+[data-selected] {
+  letter-spacing: 1.49px;
+  font-size: 85px;
+}

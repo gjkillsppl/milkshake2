@@ -13,6 +13,12 @@
  */
 /* #Primary
 ================================================== */
+.case-study-wrapper .case-study-name, .case-study-name-title, h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "ITC Clearface Std";
+  font-weight: 800;
+}
+
 body {
   font-family: "Akkurat", sans-serif;
   font-weight: 300;
@@ -20,12 +26,11 @@ body {
   line-height: 1.7;
   color: #c4c3ca;
   overflow-x: hidden;
-  background-color: #080808;
+  background-color: #FF4445;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Poppins", sans-serif;
   font-weight: 300;
   margin-bottom: 0;
   line-height: 1.35;
@@ -115,7 +120,6 @@ mark {
   opacity: 0.2;
   background-color: transparent;
   border: none;
-  background-color: #fff;
   animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
 
@@ -202,7 +206,7 @@ mark {
 }
 
 .background-dark-2 {
-  background-color: #F35051;
+  background-color: #FF4445;
 }
 
 .background-dark-3 {
@@ -554,7 +558,7 @@ a:hover {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: rgba(21, 21, 21, 0.6);
+  background: #FF4445;
   z-index: -1;
   -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
@@ -565,7 +569,6 @@ a:hover {
 }
 
 .nav:after {
-  background: #151515;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
@@ -601,7 +604,7 @@ a:hover {
   text-align: center;
   color: #fff;
   overflow: hidden;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sweet Sans Pro", sans-serif;
   font-size: 8vh;
   font-weight: 700;
   line-height: 1.05;
@@ -885,8 +888,6 @@ body.nav-active .nav__list-item:nth-child(10) {
   text-align: center;
   -webkit-writing-mode: vertical-lr;
   writing-mode: vertical-lr;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
   line-height: 1;
   color: rgba(255, 255, 255, 0.7);
   -webkit-transform: translateY(-50%);
@@ -901,16 +902,14 @@ body.nav-active .nav__list-item:nth-child(10) {
   display: block;
   text-align: left;
   padding: 0;
-  font-size: 22px;
+  font-size: 1.8em;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  line-height: 28px;
+  line-height: 1.5;
   letter-spacing: 2px;
-  color: #8e8d9a;
   -webkit-transition: all 300ms linear;
   transition: all 300ms linear;
+  color: #F9E0D6;
 }
 
 .case-study-wrapper .case-study-name a {
@@ -993,6 +992,11 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 .case-study-wrapper:hover .case-study-name:hover {
   color: #F9E0D6;
+}
+
+.case-study-name:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1) translateX(10px);
 }
 
 .case-study-wrapper .case-study-name.active {
@@ -1086,7 +1090,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   list-style: none;
   opacity: 0;
   font-size: 14vw;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sweet Sans Pro", sans-serif;
   font-weight: 900;
   font-style: italic;
   line-height: 1;
@@ -1108,7 +1112,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   list-style: none;
   opacity: 0;
   font-size: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sweet Sans Pro", sans-serif;
   font-weight: 300;
   line-height: 1;
   color: #fff;
@@ -1128,7 +1132,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   letter-spacing: 2px;
   list-style: none;
   font-size: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sweet Sans Pro", sans-serif;
   font-weight: 300;
   line-height: 1;
   color: #fff;
@@ -2118,7 +2122,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   font-size: 100px;
   line-height: 80px;
   color: #c4c3ca;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sweet Sans Pro", sans-serif;
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
@@ -2558,7 +2562,7 @@ figure.vimeo a img, figure.youtube a img {
 
 .post-comm-box h6 small {
   text-transform: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sweet Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 0.7rem;
   font-style: italic;
@@ -3132,7 +3136,7 @@ figure.vimeo a img, figure.youtube a img {
   color: #fff;
   display: block;
   float: left;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sweet Sans Pro", sans-serif;
   font-size: 2.2rem;
   line-height: 1.7;
   margin: 0;
